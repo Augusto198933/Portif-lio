@@ -1,11 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portifolio</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Augusto | Portifolio</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="logo">Augusto César</h1>
+
+      <div>
+        <a href="Home">Home</a>
+        <a href="Sobre">Sobre</a>
+        <a href="Projetos">Projetos</a>
+        <a href="Contato">Contato</a>
+      </div>
+    </header>
+
+    <main id="home">
+      <p>
+        Me chamo Augusto Cesar e estou aprendendo a programar e quero ser um
+        <strong>desenvolvedor de software</strong>.
+      </p>
+      <a href="#projetos" class="btn">Venha me conhecer!</a>
+    </main>
+
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>
+        Aqui você encontrará mais informações sobre mim, o que faço e minhas
+        habilidades atuais, principalmente em programação e tecnologia.
+      </p>
+    </section>
+
+    <h3>
+      <font dir="auto"> Venha me conhecer!</font>
+    </h3>
+    <br />
+    <p>
+      Sou um <strong>desenvolvedor web com foco em front-end</strong>,
+      responsável pela criação e gestão da interface de websites e aplicações
+      web, contribuindo para o sucesso do produto final. Confira alguns dos meus
+      trabalhos na seção <strong>Projetos</strong> .
+    </p>
+    <p class="sobre-mim-p">
+      Também gosto de compartilhar conteúdo relacionado ao que aprendi ao longo
+      dos anos em <strong>Desenvolvimento Web</strong>
+      , para que possa ajudar outras pessoas da comunidade de desenvolvedores.
+      Sinta-se à vontade para se conectar ou me seguir no
+      <a href="https://www.linkedin.com/in/augusto-c%C3%A9sar-535107217/"
+        >LinkedIn</a
+      >
+      e <a href="">Instagram</a>, onde publico conteúdo útil sobre
+      Desenvolvimento Web e Programação.
+    </p>
+    <p>
+      Estou aberto a oportunidades <strong>de trabalho</strong> onde eu possa
+      contribuir, aprender e crescer. Se você tiver uma boa oportunidade que
+      corresponda às minhas habilidades e experiência, não hesite em me
+      <strong>contatar</strong> .
+    </p>
+    <br />
+
+    <h3>Minhas Habilidades</h3>
+    <div class="container-habilidades">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>Javascript</div>
+      <div>React</div>
+      <div>wordpress</div>
+      <div>PHP</div>
+      <div>SASS</div>
+      <div>GIT</div>
+      <div>Github</div>
+      <div>Design Responsivo</div>
+      <div>SEO</div>
+      <div>Terminal</div>
+    </div>
+
+    <section class="projetos-container">
+      <h2>PROJETOS</h2>
+      <p>
+        Aqui estão alguns dos meus projetos mais recentes. Sinta-se à vontade
+        para explorá-los e entrar em contato se tiver alguma dúvida ou quiser
+        colaborar!
+      </p>
+
+      <img src="img/dopefolio.png" alt="Captura de tela do projeto 1" />
+
+      <h3>Dopefolio</h3>
+      <p>
+        Dopefolio é um portfólio online que exibe meus projetos de
+        desenvolvimento web, habilidades e experiência. Ele serve como uma
+        plataforma para mostrar meu trabalho e me conectar com potenciais
+        empregadores ou clientes.
+      </p>
+
+      <a class="estudo-de-caso">Estudo de Caso</a>
+
+      <img src="img/wilsonport.jpeg" alt="Projeto Wilsonport" />
+
+      <h3>Wilsonport</h3>
+      <p>
+        A Wilsonport é uma empresa de logística e transporte com múltiplos
+        serviços, e eu criei o site deles do zero, usando as ferramentas de
+        front-end que conheço.
+      </p>
+
+      <a class="estudo-de-caso">Estudo de Caso</a>
+
+      <img src="img/boreal-coffee-clone.jpeg" alt="Clone Boreal Coffee" />
+      <h3>Clone de Café Boreal</h3>
+
+      <p>
+        Recriei a interface do usuário do aplicativo oficial da Boreal Coffee
+        porque me encantei com a beleza do design. Foi uma ótima experiência
+        construir toda a interface.
+      </p>
+
+      <a class="estudo-de-caso">Estudo de Caso</a>
+
+      <img
+        src="img/crown-template delicious food.jpeg"
+        alt="Captura de tela de software"
+      />
+
+      <h3>Modelo de Coroa</h3>
+
+      <p>
+        Crown é um modelo de site que criei voltado para o setor de restaurantes
+        e alimentação, e que qualquer pessoa pode usar para apresentar seu
+        negócio online.
+      </p>
+
+      <a class="estudo-de-caso">Estudo de caso</a>
+    </section>
+
+    <section>
+      <h2 id="Contato">CONTATO</h2>
+      <p>
+        Sinta-se à vontade para entrar em contato comigo preenchendo o
+        formulário abaixo e eu retornarei o mais breve possível.
+      </p>
+      <br />
+
+      <form action="">
+<label for="email">email:</label><input placeholder="digite seu email" type="email">
+<label for="contato">contato:</label><input placeholder="digite seu contato" type="text">
+<label for="nome">nome:</label><input placeholder="digite seu nome" type="text">
+<button class="enviar">enviar</button>
+</form>
+    </section>
+  </body>
 </html>
